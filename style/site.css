@@ -54,3 +54,6 @@ html[data-theme="dark"] .contact .eyebrow{color:#292929}
 html[data-theme="dark"] .header nav{background:#161625}
 footer{background:#292922;color:#fff}
 @media(max-width:650px){.hero{padding-top:70px}.hero-photo{min-height:240px}.services{grid-template-columns:1fr}.header nav{background:var(--bg-color)}}
+
+/* V1.3: original UPZ 3-by-3 logo rhythm */
+.logo{display:inline-flex;align-items:center;gap:12px;flex-shrink:0}.logo img{display:block;width:52px;height:52px;object-fit:contain}.logo .logo-label{font-size:11px;font-weight:700;letter-spacing:.22em;color:var(--font-color)}footer .logo .logo-label{color:#fff}footer .logo img{filter:brightness(0) invert(1)}footer .logo img{filter:none}html[data-theme="dark"] .logo img{filter:brightness(0) invert(1)}html[data-theme="dark"] .logo img{filter:none}html[data-theme="dark"] .logo .logo-label{color:#e1e1ff}@media(max-width:650px){.logo img{width:42px;height:42px}.logo{gap:8px}.logo .logo-label{font-size:9px}}
